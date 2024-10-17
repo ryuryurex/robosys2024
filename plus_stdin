@@ -1,11 +1,15 @@
 #!/usr/bin/python3
 import sys
 
+
+def tonum(s):
+    try:
+        ans += int(s)
+    except:
+        ans += float(s)
+
 ans = 0
 for line in sys.stdin:
-    try:
-        ans += int(line)
-    except:
-        ans += float(line)
+    ans += tonum(line)
 
 print(ans)
