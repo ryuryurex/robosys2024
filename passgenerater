@@ -6,7 +6,7 @@ import sys
 import random
 import string
 
-def genereter(length):
+def generater(length):
     chars = string.ascii_letters + string.digits
     password = ""
     for i in range(length):
