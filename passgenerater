@@ -14,16 +14,15 @@ def generater(length):
     return password
 
 for line in sys.stdin:
-    line = line.strip()
-    if line == "":
-        print("入力がありません")
+    if line == "\n":
+        print("無効な入力です")
         continue
     try:
         num = int(line)
-        if num < 1:
-            print("1以上の正数を入力してください")
+        if num <= 0:
+            print("無効な入力です")
             continue
-        password = genereter(num)
+        password = generater(num)
         print("生成したパスワード: " + password)
     except:
-        print("無効な入力です")
+        print("無効な入力です。")
