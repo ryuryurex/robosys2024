@@ -27,4 +27,3 @@ for line in sys.stdin:
         print("生成したパスワード: " + password)
     except:
         print("無効な入力です")
-
