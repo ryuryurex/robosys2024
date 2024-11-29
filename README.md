@@ -13,10 +13,24 @@ $ git clone https://github.com/ryuryurex/robosys2024.git
 $ cd robosys2024
 ```
 
-## passgenerater 使用方法
+## plus
+標準入力から数値を読み込み、その合計を計算して出力にします。
+
+### 使用例
+
+```shell
+$ seq 10 | ./plus
+55
+```
+
+```shell
+$ seq 5 | ./plus
+15
+```
+## passgenerater
 数値を入力することによってランダムにパスワードを生成します。
 
-### 実行例
+### 使用例
 
 ```shell
 $ echo 5 | ./passgenerater
