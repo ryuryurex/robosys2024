@@ -50,4 +50,4 @@ $ echo 14 | ./passgenerater
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 
 ## Copyright
-© 2024 Ryusei Noda
+* © 2024 Ryusei Noda
