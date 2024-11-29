@@ -2,4 +2,14 @@
 # SPDX-FileCopyrightText: 2024 Ryusei Noda
 # SPDX-License-Identifier: BSD-3-Clause
 
+import sys
+import random
+import string
+
+def genereter(length):
+    chars = string.ascii_letters + sting.digits
+    pasword = ""
+    for i in range(length):
+        pasword += random.choice(chars)
+    return password
 
