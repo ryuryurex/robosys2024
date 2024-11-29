@@ -7,19 +7,20 @@ import random
 import string
 
 def genereter(length):
-    chars = string.ascii_letters + sting.digits
-    pasword = ""
+    chars = string.ascii_letters + string.digits
+    password = ""
     for i in range(length):
-        pasword += random.choice(chars)
+        password += random.choice(chars)
     return password
 
 for line in sys.stdin:
-    if line == "\n":
+    line = line.strip()
+    if line == "":
         print("入力がありません")
         continue
     try:
         num = int(line)
-        if num <= 0:
+        if num < 1:
             print("1以上の正数を入力してください")
             continue
         password = genereter(num)
