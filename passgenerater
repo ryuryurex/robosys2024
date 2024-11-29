@@ -2,11 +2,12 @@
 # SPDX-FileCopyrightText: 2024 Ryusei Noda
 # SPDX-License-Identifier: BSD-3-Clause
 
+
 import sys
 import random
 import string
 
-def generater(length):
+def generator(length):
     chars = string.ascii_letters + string.digits
     password = ""
     for i in range(length):
@@ -14,15 +15,17 @@ def generater(length):
     return password
 
 for line in sys.stdin:
-    if line == "\n":
-        print("無効な入力です")
-        continue
+    line = line.strip()
+    if line == "":
+        print("入力がありません")
+        sys.exit(1)
     try:
         num = int(line)
         if num <= 0:
-            print("無効な入力です")
-            continue
-        password = generater(num)
+            print("1以上の正数を入力してください")
+            sys.exit(1)
+        password = generator(num)
         print("生成したパスワード: " + password)
-    except:
-        print("無効な入力です。")
+    except ValueError:
+        print("無効な入力です")
+        sys.exit(1)
