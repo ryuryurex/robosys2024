@@ -1,5 +1,5 @@
 # robosys2024
-
+[![test](https://github.com/ryuryurex/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/ryuryurex/robosys2024/actions/workflows/test.yml)
 ##概要
 - ロボットシステム学の授業で作成したリポジトリです。
 
