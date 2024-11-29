@@ -13,3 +13,17 @@ def genereter(length):
         pasword += random.choice(chars)
     return password
 
+for line in sys.stdin:
+    if line == "\n":
+        print("入力がありません")
+        continue
+    try:
+        num = int(line)
+        if num <= 0:
+            print("1以上の正数を入力してください")
+            continue
+        password = genereter(num)
+        print("生成したパスワード: " + password)
+    except:
+        print("無効な入力です")
+
