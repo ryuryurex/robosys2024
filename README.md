@@ -42,7 +42,7 @@ $ echo 5 | ./passgenerater
 ```
 
 ```shell
-$ echo echo 8 | ./passgenerater
+$ echo 8 | ./passgenerater
 生成したパスワード: JF9FzCck
 ```
 
