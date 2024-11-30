@@ -10,11 +10,11 @@ res=0
 ### 正常な入力のテスト ###
 out=$(echo 5 | ./passgenerater)
 [ $? = 0 ] || ng "$LINENO"
-[[ "$out" == "生成したパスワード: "* ]] || ng "$LINENO"
+[[ "$out" =~ ^[A-Za-z0-9]+$ ]] || ng "$LINENO"
 
 out=$(echo 10 | ./passgenerater)
 [ $? = 0 ] || ng "$LINENO"
-[[ "$out" == "生成したパスワード: "* ]] || ng "$LINENO"
+[[ "$out" =~ ^[A-Za-z0-9]+$ ]] || ng "$LINENO"
 
 ### 異常な入力のテスト ###
 out=$(echo -1 | ./passgenerater)
