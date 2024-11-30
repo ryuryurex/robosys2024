@@ -8,6 +8,7 @@
 ## テスト済みの環境
 * Ubuntu 20.04
 * Python:3.7~3.11
+* GitHub Actions
 
 ## 使用準備
 
@@ -47,16 +48,16 @@ $ seq 5 | ./plus
 
 ### 使用例
 ```shell
-$ echo 5 | ./passgenerater
-生成したパスワード: eKtNR
+$echo 5 | ./passgenerater
+WB31I
 ```
 ```shell
 $ echo 8 | ./passgenerater
-生成したパスワード: JF9FzCck
+wxeSvyTN
 ```
 ```shell
-$ echo 14 | ./passgenerater
-生成したパスワード: JB5noR5QOpmdvu
+$ echo 16 | ./passgenerater
+exsiJU4s6i7SM1PL
 ```
 
 ## LICENSE
