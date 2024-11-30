@@ -25,7 +25,7 @@ for line in sys.stdin:
             print("1以上の正数を入力してください")
             sys.exit(1)
         password = generator(num)
-        print("生成したパスワード: " + password)
+        print(password)
     except ValueError:
         print("無効な入力です")
         sys.exit(1)

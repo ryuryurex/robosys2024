@@ -10,11 +10,24 @@
 * Python:3.7~3.11
 
 ## 使用準備
-このコマンドでリポジトリを適当な場所にクローンしてください
 
+###このコマンドでリポジトリを適当な場所にクローンしてください
 ```shell
 $ git clone https://github.com/ryuryurex/robosys2024.git
+```
+
+###robosys2024に移動する
+```shell
 $ cd robosys2024
+```
+
+###plusに権限を付与する
+```shell
+$ chmod +x plus
+```
+###passgeneraterに権限を付与する
+```shell
+$ chmod +x passgenerater
 ```
 
 ## plus
