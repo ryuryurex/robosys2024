@@ -48,7 +48,7 @@ $ seq 5 | ./plus
 
 ### 使用例
 ```shell
-$echo 5 | ./passgenerater
+$ echo 5 | ./passgenerater
 WB31I
 ```
 ```shell
