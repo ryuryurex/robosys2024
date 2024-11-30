@@ -11,21 +11,20 @@
 
 ## 使用準備
 
-###このコマンドでリポジトリを適当な場所にクローンしてください
+### このコマンドでリポジトリを適当な場所にクローンしてください。
 ```shell
 $ git clone https://github.com/ryuryurex/robosys2024.git
 ```
 
-###robosys2024に移動する
+### robosys2024に移動してください。
 ```shell
 $ cd robosys2024
 ```
 
-###plusに権限を付与する
+### plusとpassgeneraterにそれぞれ権限を付与してください。
 ```shell
 $ chmod +x plus
 ```
-###passgeneraterに権限を付与する
 ```shell
 $ chmod +x passgenerater
 ```
@@ -34,35 +33,32 @@ $ chmod +x passgenerater
 標準入力から数値を読み込み、その合計を計算して出力にします。
 
 ### 使用例
-
 ```shell
 $ seq 10 | ./plus
 55
 ```
-
 ```shell
 $ seq 5 | ./plus
 15
 ```
+
 ## passgenerater
 数値を入力することによってランダムにパスワードを生成します。
 
 ### 使用例
-
 ```shell
 $ echo 5 | ./passgenerater
 生成したパスワード: eKtNR
 ```
-
 ```shell
 $ echo 8 | ./passgenerater
 生成したパスワード: JF9FzCck
 ```
-
 ```shell
 $ echo 14 | ./passgenerater
 生成したパスワード: JB5noR5QOpmdvu
 ```
+
 ## LICENSE
 * このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 
