@@ -1,7 +1,7 @@
 # robosys2024
 
 [![test](https://github.com/ryuryurex/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/ryuryurex/robosys2024/actions/workflows/test.yml)
-![License](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)
+![License](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)https://github.com/ryuryurex/robosys2024/blob/main/LICENSE
 
 ## 概要
 - ロボットシステム学の授業で作成したリポジトリです。
